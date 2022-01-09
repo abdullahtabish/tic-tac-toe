@@ -23,6 +23,10 @@
   padding: 0.35rem;
 }
 
+.error label {
+  color: rgb(136, 2, 2);
+}
+
 .error input {
   border-color: rgb(136, 2, 2);
   color: rgb(136, 2, 2);
@@ -43,7 +47,7 @@
   display: flex;
 }
 
-#game-configuration ol li {
+#game-configuration li {
   margin: 1rem;
   padding: 1rem;
   width: 50%;
